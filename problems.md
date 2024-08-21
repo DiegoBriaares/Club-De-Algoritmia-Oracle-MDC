@@ -161,7 +161,7 @@ No es que haya un patrón en los números, pero intenta con esta información de
 
 # Medio
 
-## 1. Replicando información
+## 9. Replicando información
 
 Digamos que tienes $123,456$ servidores. Tienes información importante que quieres enviar del servidor $1$ hacia todos los demás. Pero solo puedes enviar información de un servidor a otro al mismo tiempo. El envío de información de un servidor a otro tarda $5$ minutos. Luego de eso, el servidor que envió información necesita $1$ minuto de *cooldown* en el que no puede enviar información. ¿Cuál es el mínimo de tiempo que necesitas para pasar la información del servidor $1$ a todos los demás? (cantidad de minutos)
 
@@ -177,7 +177,7 @@ Recordemos que las de hace $5$ minutos apenas recibieron la información y la pa
 
 **Respuesta:** 96.
 
-## 2. Fichas de dominó
+## 10. Fichas de dominó
 
 Te has unido al club de juegos de mesa y quisiste llevar un juego nuevo, sorprendente y que nadie jamás haya visto: "Dominó". Después de jugarlo un rato, era momento de guardarlo. Te percataste de que la caja tiene el tamaño exacto para todas las fichas. Esta es una caja de $2 \text{cm} \times 20 \text{cm}$ y cada ficha es de $1 \text{cm} \times 2 \text{cm}$. Te das cuenta de que puedes poner las fichas ya sea en horizontal o vertical y te preguntaste: ¿De cuántas formas **distintas** puedes acomodar las fichas en la caja?
 
@@ -189,7 +189,7 @@ En la siguiente imagen se muestra *algunas* formas de acomodar $4$ fichas de for
 
 **Solución:** 10,946.
 
-## 3. Páginas mal indexadas
+## 11. Páginas mal indexadas
 
 Acabas de crear una página web con $83,378,221$ pestañas. Sin embargo, como buen programador te olvidaste de hacer todos los `testings` necesarios. Ahora tienes un `bug` donde la página de cada pestaña la tienes como una cadena de caracteres. ¿Cuál es el problema? Te preguntarás: cuando ordenaste las pestañas, se ordenaron en orden lexicográfico.
 
@@ -203,7 +203,7 @@ Luego, hay otros $11,111,111$ que empiezan por el $2$, por lo tanto, los primero
 
 **Solución:** 47,520,196. 
 
-## 4. Colisiones en el hash
+## 12. Colisiones en el hash
 
 Convertir una palabra en un número es una parte esencial de la programación, en especial para temas de optimización de búsqueda o incluso en criptografía. El proceso de convertir una palabra a un número se le llama hacer un hash. Un hash bastante común se basa en hacer una base numérica de $27$ con los números, dándole a cada letra un valor correspondiente a su posición en el alfabeto. Es decir, $A = 1, B = 2, ..., Z = 26$ (estamos manejando el alfabeto inglés). Y con eso hacemos una conversión de base.
 
@@ -229,7 +229,7 @@ Dentro de ese rango solo hay unos pocos numeros que pueden hacer colision con nn
 
 # Difícil
 
-## 1. Binarios palíndromos
+## 13. Binarios palíndromos
 
 Para las ciencias de la computación, los números binarios son esenciales. Los números binarios representan un número como potencias de $2$. Por ejemplo, $19 = 16 + 2 + 1 = 2^4 + 2^1 + 2^0$. Normalmente, se escribe como una cadena de `1`s y `0`s empezando por un `1`. Cada posición representa si la potencia de $2$ está presente o no. $19 = (10011)_2 = 1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0$.
 
@@ -245,7 +245,7 @@ Tu tarea en este reto es determinar la cantidad de números *binarios palíndrom
 
 **Respuesta:** 728,284,925.
 
-## 2. Número con divisores
+## 14. Número con divisores
 
 Cada número cuenta con cierta cantidad de divisores, es decir, números que lo dividen. Por ejemplo, el $10$ tiene $4$ divisores, que son $1, 2, 5, 10$.
 
