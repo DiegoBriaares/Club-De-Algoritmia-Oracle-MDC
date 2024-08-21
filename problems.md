@@ -20,13 +20,15 @@ Entonces, el primer mes tendrás $1,000$ ahorrados. El segundo mes tendrás $2,1
 
 ***Pista:*** Fíjate en cuánto dinero *nuevo* obtienes cada mes y la suma de todos los meses será tu cantidad actual. Después de los primeros 5 meses obtienes:
 
-\begin{align*}
-1000 + 1100 + 1200 + 1300 + 1400 &= (1000) + (1000 + 100) + \ldots + (1000 + 400) \\
-&= 1000 \times 5 + (100 + 200 + 300 + 400) \\
-&= 1000 \times 5 + 100 \times (1 + 2 + 3 + 4) \\
-&= 1000 \times 5 + 100 \times \frac{4(4 + 1)}{2} \\
-&= 6000.
-\end{align*}
+$1000 + 1100 + 1200 + 1300 + 1400 &= (1000) + (1000 + 100) + \ldots + (1000 + 400)$
+
+$= 1000 \times 5 + (100 + 200 + 300 + 400) $
+
+$= 1000 \times 5 + 100 \times (1 + 2 + 3 + 4) $
+
+$= 1000 \times 5 + 100 \times \frac{4(4 + 1)}{2}$
+
+$= 6000.$
 
 Puedes intentar deducir una fórmula y despejarla.
 
